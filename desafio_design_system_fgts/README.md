@@ -12,10 +12,11 @@ Para desenvolver o Design System deste projeto, deve seguir as seguintes premiss
 - Deve considerar o uso de bibliotecas e pacotes de autenticação fornecidos pela plataforma em nuvem, como as bibliotecas de autenticação do Google Cloud.
 - Deve explorar a possibilidade de usar URLs assinadas para acesso limitado no tempo a recursos específicos, como o Armazenamento em Nuvem, se aplicável.
 
-#### 2. Armazenamento de Documentos:
+#### 2. Armazenamento de Dados:
 - A solução deve ter a capacidade de armazenar os documentos recebidos dos endpoints.
 - Isso pode ser realizado aproveitando os serviços de armazenamento em nuvem, como o Google Cloud Storage ou o AWS S3.
 - Deve ser considerado os aspectos de segurança do armazenamento de documentos sensíveis e garantir que os controles de acesso apropriados sejam implementados.
+- Deve ser salvo todas as informações do usuário na base de dados.
 
 #### 3. Pipeline de CI/CD para Ambientes de Desenvolvimento, Homologação e Produção:
 - A solução deve ter um pipeline de CI/CD para automatizar o processo de implantação em diferentes ambientes.

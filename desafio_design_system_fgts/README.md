@@ -30,6 +30,6 @@ Para desenvolver o Design System deste projeto, deve seguir as seguintes premiss
 - Deve ser considerado a implementação de melhores práticas para proteger o pipeline de CI/CD, como o manejo de credenciais comprometidas e a configuração de autenticação de dois fatores.
 
 
-###Exemplo:
+### Exemplo:
 
 ![MicrosoftTeams-image (11)](https://github.com/MzAlvess/bootcamp-vivo/assets/131389847/05b59b8d-3554-476b-ac5d-47546a4a738a)

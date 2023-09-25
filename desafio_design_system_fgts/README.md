@@ -14,17 +14,23 @@ Para desenvolver o Design System deste projeto, deve seguir as seguintes premiss
 
 #### 2. Armazenamento de Dados:
 - A solução deve ter a capacidade de armazenar os documentos recebidos dos endpoints.
+- A solução deve persistir no Banco de Dados Transacional, todos os dados de usuário, dados bancário e informações referente ao FGTS.
 - Isso pode ser realizado aproveitando os serviços de armazenamento em nuvem, como o Google Cloud Storage ou o AWS S3.
 - Deve ser considerado os aspectos de segurança do armazenamento de documentos sensíveis e garantir que os controles de acesso apropriados sejam implementados.
 - Deve ser salvo todas as informações do usuário na base de dados.
 
 #### 3. Pipeline de CI/CD para Ambientes de Desenvolvimento, Homologação e Produção:
+- A solução deve ter uma pipeline de dados batch para automatizar o processo de ingestão dos dados no Data Lake hospedado em outra Cloud.
+- A solução deve possuir o processo de extração, transformação e carregamento dos dados.
+- A solução deve possuir monitoramento do ambiente e do processo automatizado.
+
+#### 4. Pipeline de CI/CD para Ambientes de Desenvolvimento, Homologação e Produção:
 - A solução deve ter um pipeline de CI/CD para automatizar o processo de implantação em diferentes ambientes.
 - Deve ser considerado o uso de ferramentas de CI/CD como GitLab CI/CD ou Jenkins para orquestrar o pipeline.
 - O pipeline deve incluir etapas para construção, teste e implantação do código do aplicativo.
 - Deve ser considerado a incorporação de práticas de segurança no pipeline de CI/CD, como análise de composição de origem para identificar vulnerabilidades em módulos ou bibliotecas de terceiros.
 
-#### 4. Ambiente Seguro de CI/CD:
+#### 5. Ambiente Seguro de CI/CD:
 - O candidato deve garantir que o ambiente de CI/CD seja isolado e protegido contra acessos não autorizados.
 - O sistema de CI/CD deve ser implantado em redes internas e protegidas e não exposto a partes externas.
 - É recomendado a configuração de VPNs ou outras tecnologias de controle de acesso à rede para restringir o acesso apenas a operadores autenticados.

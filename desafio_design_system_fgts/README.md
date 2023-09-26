@@ -34,9 +34,9 @@ Para desenvolver o Design System deste projeto, deve seguir as seguintes premiss
 - O candidato deve garantir que o ambiente de CI/CD seja isolado e protegido contra acessos não autorizados.
 - O sistema de CI/CD deve ser implantado em redes internas e protegidas e não exposto a partes externas.
 - É recomendado a configuração de VPNs ou outras tecnologias de controle de acesso à rede para restringir o acesso apenas a operadores autenticados.
-- Deve ser considerado a implementação de melhores práticas para proteger o pipeline de CI/CD, como o manejo de credenciais comprometidas e a configuração de autenticação de dois fatores.
+- Deve ser considerado a implementação de melhores práticas para proteger o pipeline de CI/CD, como o manejo de credenciais comprometidas e a configuração de autenticação de dois fatores. 
 
 
-### Exemplo:
+### Exemplo 1:
 
 ![MicrosoftTeams-image (11)](https://github.com/MzAlvess/bootcamp-vivo/assets/131389847/05b59b8d-3554-476b-ac5d-47546a4a738a)
